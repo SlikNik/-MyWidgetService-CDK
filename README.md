@@ -1,6 +1,6 @@
-# Welcome to your CDK TypeScript project
+# Welcome to MyWidgetService CDK TypeScript project
 
-This is a blank project for CDK development with TypeScript.
+This is a starter project for CDK development with TypeScript.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
@@ -18,6 +18,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 Outputs:
 
 -   MyWidgetServiceStack.WidgetswidgetsapiEndpoint5B785C68 = https://1hh6dix6ve.execute-api.us-east-1.amazonaws.com/prod/
+
     -   Testing:
         curl -X GET 'https://1hh6dix6ve.execute-api.us-east-1.amazonaws.com/prod/'
         curl -X POST 'https://1hh6dix6ve.execute-api.us-east-1.amazonaws.com/prod/example'
@@ -25,5 +26,5 @@ Outputs:
         curl -X GET 'https://1hh6dix6ve.execute-api.us-east-1.amazonaws.com/prod/example'
         curl -X DELETE 'https://1hh6dix6ve.execute-api.us-east-1.amazonaws.com/prod/example'
         curl -X GET 'https://1hh6dix6ve.execute-api.us-east-1.amazonaws.com/prod/'
-        Stack ARN:
--   arn:aws:cloudformation:us-east-1:821722523390:stack/MyWidgetServiceStack/f98eb1a0-5fae-11ed-8cc4-0a8814a35fbd
+
+        -   The Body for the Post can be anything you like

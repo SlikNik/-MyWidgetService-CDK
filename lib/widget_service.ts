@@ -7,12 +7,6 @@ export class WidgetService extends Construct {
     constructor(scope: Construct, id: string) {
         super(scope, id);
 
-        // The code that defines your stack goes here
-
-        // example resource
-        // const queue = new sqs.Queue(this, 'MyWidgetServiceQueue', {
-        //   visibilityTimeout: cdk.Duration.seconds(300)
-        // });
         const bucket = new s3.Bucket(this, "WidgetStore");
 
         const handler = new lambda.Function(this, "WidgetHandler", {
